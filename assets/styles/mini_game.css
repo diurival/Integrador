@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Degular-Regular';
+    src: url(../fonts/DegularDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'Degular-Bold';
+    src: url(../fonts/DegularDisplay-Bold.otf);
+}
+@font-face {
+    font-family: 'Degular-Medium';
+    src: url(../fonts/DegularDisplay-Medium.otf);
+}
+@font-face {
+    font-family: 'Degular-Light';
+    src: url(../fonts/DegularDisplay-Light.otf);
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: #61FF7E;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Degular-Bold';
+    text-align: center;
+}
+
+.back_btn{
+    position: absolute;
+    left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Degular-Bold';
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    width: 45%;
+    height: 95vh;
+    align-self: center;
+    flex-direction: column;
+}
+
+.p_inputs{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+    
+}
+
+.timer{
+    display: none;
+    width: auto;
+    height: auto;
+
+    font-size: 20px;
+    font-family: 'Degular-Bold';
+
+    color: white;
+
+    text-align: center;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+span{
+    font-size: 50px;
+    position: relative;
+    bottom: 5px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 12px;
+    border-color: transparent;
+    justify-content: center;
+    align-self: center;
+}
+
+.f_p, .s_p, .operator{
+    width: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Degular-Bold';
+}
+
+
+.keyboard_container{
+    justify-self: center;
+    margin-top: 3%;
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 55px);
+
+    text-align: center;
+    align-items: stretch;
+    
+    font-family: 'Degular-Bold';
+    font-size: 22px;
+    color: white;
+
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.start_game_btn{
+    width: 300px;
+    padding: 10px;
+    background-color: #61FF7E;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Degular-Bold';
+    color: white;
+    border-radius: 12px;
+
+    position: absolute;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+.check_game_btn{
+    display: none;
+    width: 300px;
+    padding: 10px;
+    background-color: #61FF7E;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Degular-Bold';
+    color: white;
+    border-radius: 12px;
+
+    position: absolute;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+.keycap{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: black;                
+    border: 1px solid #ccc;             
+    border-radius: 6px;                 
+    font-family: 'Degular-Bold';
+    font-size: 22px;
+    color: white;
+
+    box-shadow:
+        0 4px 0 #b5b5b5,                
+        0 4px 8px rgba(0, 0, 0, 0.3);   
+    
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.keycap:active {
+    transform: translateY(4px);    
+    box-shadow:
+        0 1px 0 #b5b5b5,                
+        0 1px 4px rgba(0, 0, 0, 0.3);   
+}
+
+.pChecks{
+    margin-top: 5%;
+    flex-direction: column;
+    justify-self: center;
+    display: none;
+}
+
+.theP{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.input_0, .input_2, .input_4, .input_6, .input_ans{
+    background-color: white;
+    border-radius: 12px;
+    width: 50px;
+    display: none;
+}
+
+.input_ans{
+    background-color: white;
+    border-radius: 12px;
+    width: auto;
+    height: 30px;
+    display: none;
+}
+
+.span_0, .span_2, .span_4, .span_6{
+    display: none;
+    color: white;
+    font-family: 'Degular-Bold';
+    font-size: 30px;
+}
+
+.span_out{
+    color: white;
+    font-family: 'Degular-Bold';
+    font-size: 30px;
+}
+
+.p{
+    grid-column: 1/2;
+}
+.np{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.q{
+    grid-column: 2/3;
+}
+.nq{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.r{
+    grid-column: 3/4;
+}
+.nr{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}

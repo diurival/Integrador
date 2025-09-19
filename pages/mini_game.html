@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../assets/styles/mini_game.css">
+    <title>Mini Juego</title>
+</head>
+
+<body>
+    <div class="back_btn">
+        <a href="../index.html">👈🏼 Regresar</a>
+    </div>
+    <div class="container">
+        <div class="sub_container">
+            <h2>☢️ Hackea la Proposición ☢️</h2>
+            <div class="p_inputs">
+                <span>(</span>
+                <input class="f_p" id="fInput0" type="text" autocomplete="off"/>
+                <input class="f_p" id="fInput1" type="text" autocomplete="off"/>
+                <input class="f_p" id="fInput2" type="text" autocomplete="off"/>
+                <span>)</span>
+                <input id="operator" class="operator" />
+                <span>(</span>
+                <input class="s_p" id="sInput0" type="text" autocomplete="off"/>
+                <input class="s_p" id="sInput1" type="text" autocomplete="off"/>
+                <input class="s_p" id="sInput2" type="text" autocomplete="off"/>
+                <span>)</span>
+            </div>
+            <div class="timer" id="generateTimer"></div>
+            <div class="keyboard_container">
+                <div class="keyboard" id="logicKeyboard">
+                    <div class="keycap" id="key-p">p</div>
+                    <div class="keycap" id="key-np">~p</div>
+                    <div class="keycap" id="key-q">q</div>
+                    <div class="keycap" id="key-nq">~q</div>
+                    <div class="keycap" id="key-r">r</div>
+                    <div class="keycap" id="key-nr">~r</div>
+                    <div class="keycap" id="key-s">s</div>
+                    <div class="keycap" id="key-ns">~s</div>
+                    <div class="keycap" id="key-and">∧</div>
+                    <div class="keycap" id="key-or">∨</div>
+                    <div class="keycap" id="key-cond">⇒</div>
+                    <div class="keycap" id="key-bicond">⇔</div>
+                    <div class="keycap" id="key-xor">⊕</div>
+                </div>
+            </div>
+            <div class="pChecks" id="pChecks">
+                <div class="theP" id="theP">
+                    <span class="span_0"></span>
+                    <div class="input_0" id="i_p"></div>
+
+                    <span class="span_2"></span>
+                    <div class="input_2" id="i_q"></div>
+
+                    <span class="span_4"></span>
+                    <div class="input_4" id="i_r"></div>
+
+                    <span class="span_6"></span>
+                    <div class="input_6" id="i_s"></div>
+                </div>
+                    <span class="span_out">Salida: </span>
+                    <div class="input_ans" id="i_ans"></div>
+            </div>
+        </div>
+
+        <div class="start_game_btn" id="start">
+            Cifrar
+        </div>
+        <div class="check_game_btn" id="check_ans">
+            Verificar
+        </div>
+    </div>
+
+    <script src="../assets/js/mini_game.js"></script>
+</body>
+
+</html>

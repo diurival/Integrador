@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Lógica Integrador I</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="select_container">
+            <div class="title">
+                <h3>Elige un Operador Lógico</h3>
+            </div>
+            <div class="inputs">
+                <div class="prop_change_color" id="p_btn"></div>
+                <input type="text" id="prop_p" placeholder="Soy p" class="input_props" autocomplete="off"/>
+                <select name="operator_selector" class="operator_selector" id="selector">
+                    <option value="and">Conjunción (∧)</option>
+                    <option value="or">Disyunción (∨)</option>
+                    <option value="cond">Condición (⇒)</option>
+                    <option value="bicond">Bicondicional (⇔)</option>
+                    <option value="xor">XOR (⊕)</option>
+                </select>
+                <input type="text" id="prop_q" placeholder="Soy q" class="input_props" autocomplete="off"/>
+                <div class="prop_change_color" id="q_btn"></div>
+            </div>
+            <button class="select_btn" id="select_btn">
+                Comprobar
+            </button>
+            <div class="game_btn_container">
+                <div class="game_btn">
+                    <a href="./pages/mini_game.html">Comenzar Hackeo</a>
+                </div>
+            </div>
+        </div>
+        <div class="generateText" id="generateText"></div>
+        <table id="table_container">
+            <tr>
+                <th>p</th>
+                <th>q</th>
+                <th>Salida</th>
+            </tr>
+            <tr>
+                <td id="p_output"></td>
+                <td id="q_output"></td>
+                <td id="output"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script src="./assets/js/main.js"></script>
+
+</html>

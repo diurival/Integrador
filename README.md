@@ -1,44 +1,43 @@
-
-Proyecto Integrador - Primer Parcial\
+Proyecto Integrador - Primer Parcial  
 Código realizado por:
-1. Diego Uribe Alvarez
-2. Fabrizio Rodriguez Gomez
-3. Luis Rigoberto
+1. Diego Uribe Álvarez  
+2. Fabrizio Rodríguez Gómez  
+3. Luis Rigoberto Ramírez Llamas  
 
-<h1>Tecnologias usadas en el proyecto</h1></br>
-<h3>Para realizar el proyecto se necesitarion las tres siguientes tecnologias</h3></br>
+<h1>Tecnologías utilizadas en el proyecto</h1><br/>
+<h3>Para desarrollar el proyecto se emplearon las siguientes tecnologías:</h3><br/>
 
-1. <kbd>HTML (HyperText Markup Language)</kbd> : Se utilizó para el esqueleto de la pagina web.
-2. <kbd>CSS (Cascade Style Sheet)</kbd> : Se utilizó para dar estilos y mejorar el estilo de la pagina web. Ademas de hacer una experiencia de usuario mejorando aplicando UI/UX.
-3. <kbd>JavaScript</kbd> : Se utilizó para la logica implementada en el proyecto y hacer la pagina web funcional.
+1. <kbd>HTML (HyperText Markup Language)</kbd>: Se utilizó para la estructura principal de la página web.  
+2. <kbd>CSS (Cascading Style Sheets)</kbd>: Se empleó para dar estilos y mejorar la presentación de la página web, además de optimizar la experiencia del usuario aplicando principios de UI/UX.  
+3. <kbd>JavaScript</kbd>: Se usó para la lógica implementada en el proyecto y dotar de funcionalidad a la página web.  
 
-<h1>¿Cómo ejecutar la pagina web?</h1></br>
+<h1>¿Cómo ejecutar la página web?</h1><br/>
 
-<h3>Existen dos formas</h3>
+<h3>Existen dos formas:</h3>
 <ul>
     <li>Live Server</li>
         <ul>
-            <li>Descargar la extension de Live Server</li>
-            <li>Dar click derecho y abrir el index.html con Live Server</li>
+            <li>Descargar la extensión Live Server.</li>
+            <li>Dar clic derecho sobre <code>index.html</code> y abrirlo con Live Server.</li>
         </ul>
-    <li>Abrir Index</li>
+    <li>Abrir directamente el archivo <code>index.html</code></li>
        <ul>
-            <li>Abrir la carpeta del proyecto</li>
-            <li>Dar doble click en index.html</li>
+            <li>Abrir la carpeta del proyecto.</li>
+            <li>Dar doble clic en <code>index.html</code>.</li>
         </ul>
 </ul>
 
-<h1>Clonar mi repositorio</h1></br>
-<h3>Existen dos formas</h3>
+<h1>Clonar el repositorio</h1><br/>
+<h3>Existen dos formas:</h3>
 <ul>
     <li>ZIP</li>
         <ul>
-            <li>Descargar el .zip de este repositorio <a href="https://github.com/diurival/Integrador">Link</a></li>
-            <li>Descomprimir el .zip</li>
+            <li>Descargar el archivo <code>.zip</code> desde este repositorio: <a href="https://github.com/diurival/Integrador">Link</a></li>
+            <li>Descomprimir el archivo <code>.zip</code>.</li>
         </ul>
     <li>Por Git</li>
        <ul>
-            <li>HTTPS: https://github.com/diurival/Integrador.git</li>
-            <li>GithubCLI: gh repo clone diurival/Integrador</li>
+            <li>HTTPS: <code>https://github.com/diurival/Integrador.git</code></li>
+            <li>GitHub CLI: <code>gh repo clone diurival/Integrador</code></li>
         </ul>
 </ul>

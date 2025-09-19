@@ -2,7 +2,7 @@ Proyecto Integrador - Primer Parcial
 Código realizado por:
 1. Diego Uribe Álvarez  
 2. Fabrizio Rodríguez Gómez  
-3. Luis Rigoberto Ramírez Llamas  
+3. Luis Rigoberto Ramírez Llamas    
 
 <h1>Tecnologías utilizadas en el proyecto</h1><br/>
 <h3>Para desarrollar el proyecto se emplearon las siguientes tecnologías:</h3><br/>

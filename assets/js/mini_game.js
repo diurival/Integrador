@@ -90,7 +90,6 @@ start_btn.addEventListener('click', () => {
         : myArray[index];
 
     e.value = '';
-    myArray[index] = '';
 });
 
 
@@ -101,7 +100,7 @@ check_btn.addEventListener('click', () => {
     checkAnswers();
 
     for (let i = 0; i <= 6; i++) {
-        console.log(myArray[i], verifyArray[i]);
+        console.log(verifyArray[i], myArray[i])
     }
 
 })
@@ -225,7 +224,7 @@ function validaAmbasProposiciones(p, q, r, s) {
 
 function checkAnswers() {
     for (let i = 0; i <= 6; i++) {
-        if (verifyArray[i] === myArray[i])
+        if (verifyArray[i] == myArray[i])
             continue;
         else {
             alert('Respuesta incorrecta');

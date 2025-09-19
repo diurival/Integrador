@@ -1,6 +1,6 @@
 
 Proyecto Integrador - Primer Parcial\
-Código realizado por:\
+Código realizado por:
 1. Diego Uribe Alvarez
 2. Fabrizio Rodriguez Gomez
 3. Luis Rigoberto
@@ -16,6 +16,29 @@ Código realizado por:\
 
 <h3>Existen dos formas</h3>
 <ul>
-    <li></li>
+    <li>Live Server</li>
+        <ul>
+            <li>Descargar la extension de Live Server</li>
+            <li>Dar click derecho y abrir el index.html con Live Server</li>
+        </ul>
+    <li>Abrir Index</li>
+       <ul>
+            <li>Abrir la carpeta del proyecto</li>
+            <li>Dar doble click en index.html</li>
+        </ul>
 </ul>
 
+<h1>Clonar mi repositorio</h1></br>
+<h3>Existen dos formas</h3>
+<ul>
+    <li>ZIP</li>
+        <ul>
+            <li>Descargar el .zip de este repositorio <a href="https://github.com/diurival/Integrador">Link</a></li>
+            <li>Descomprimir el .zip</li>
+        </ul>
+    <li>Por Git</li>
+       <ul>
+            <li>HTTPS: https://github.com/diurival/Integrador.git</li>
+            <li>GithubCLI: gh repo clone diurival/Integrador</li>
+        </ul>
+</ul>
